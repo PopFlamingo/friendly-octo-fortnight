@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug FlyLogsTest",
+            "program": "${workspaceFolder:FlyLogsTest}/.build/debug/FlyLogsTest",
+            "args": [],
+            "cwd": "${workspaceFolder:FlyLogsTest}",
+            "preLaunchTask": "swift: Build Debug FlyLogsTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release FlyLogsTest",
+            "program": "${workspaceFolder:FlyLogsTest}/.build/release/FlyLogsTest",
+            "args": [],
+            "cwd": "${workspaceFolder:FlyLogsTest}",
+            "preLaunchTask": "swift: Build Release FlyLogsTest"
+        }
+    ]
+}
